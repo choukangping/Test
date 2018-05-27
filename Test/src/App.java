@@ -11,7 +11,7 @@ import org.apache.logging.log4j.core.*;
 
 
 public class App {
-	private static final Logger logger = LogManager.getLogger(App.class);
+//	private static final Logger logger = LogManager.getLogger(App.class);
 	protected final String scheduleTm = "15:25:35:55";
 	protected final String fixingTm = "9:11:14:16:17:18:20:21:22";
 	protected AtomicBoolean toStart = new AtomicBoolean ();
