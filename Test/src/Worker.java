@@ -12,7 +12,7 @@ public class Worker extends Thread {
 		while(true){
 			try {
 //				long diffMin = mlSec / (60 * 1000) % 60;
-				System.out.println("Sleep for "+ diffMin);
+				System.out.println("Sleep for ");
 				Thread.sleep(60000);
 //				toStart.set(true);
 			} catch (InterruptedException e) {
